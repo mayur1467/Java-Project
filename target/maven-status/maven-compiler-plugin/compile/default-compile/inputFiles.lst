@@ -1,0 +1,4 @@
+/home/ec2-user/employee-management/src/main/java/com/example/demo/DemoApplication.java
+/home/ec2-user/employee-management/src/main/java/com/example/demo/repository/EmployeeRepository.java
+/home/ec2-user/employee-management/src/main/java/com/example/demo/model/Employee.java
+/home/ec2-user/employee-management/src/main/java/com/example/demo/controller/EmployeeController.java

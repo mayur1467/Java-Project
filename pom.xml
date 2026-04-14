@@ -51,7 +51,6 @@
     </repository>
 	</distributionManagement>
   <build>
-    <finalName>employee-management</finalName>
 
     <plugins>
 

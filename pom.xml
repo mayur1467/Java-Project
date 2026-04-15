@@ -3,7 +3,7 @@
   <groupId>com.example</groupId>
   <artifactId>employee-management</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -44,12 +44,6 @@
     <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <url>http://100.26.196.57:8081/repository/maven-releases_2611/</url>
-    </repository>
-	</distributionManagement>
   <build>
 
     <plugins>
@@ -94,9 +88,14 @@
                 </execution>
 
             </executions>
-        </plugin>
+    </plugin>
+    <plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    </plugin>
 
-    </plugins>
+  </plugins>
+
 </build>
 
 </project>
